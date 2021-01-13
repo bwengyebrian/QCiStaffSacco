@@ -28,6 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.authenticationProvider(authenticationProvider());
+        // I have implemented security
         //auth.userDetailsService(myUserDetailsService).passwordEncoder(encodePWD());
 
     }
